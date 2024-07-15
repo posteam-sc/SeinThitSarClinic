@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e550cf61965245ce80b20f48aeb26d16" Name="Diagram1">
+        <EntityTypeShape EntityType="POSModel.Adjustment" Width="1.5" PointX="2.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.AdjustmentType" Width="1.5" PointX="0.75" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.AttachGiftForTransaction" Width="1.5" PointX="2.75" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.Authorize" Width="1.5" PointX="0.75" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.Brand" Width="1.5" PointX="3" PointY="26.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.City" Width="1.5" PointX="3.75" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.ConsignmentCounter" Width="1.5" PointX="3" PointY="29.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.ConsignmentSettlement" Width="1.5" PointX="0.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.Counter" Width="1.5" PointX="10.5" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.Currency" Width="1.5" PointX="6" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.Customer" Width="1.5" PointX="6" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.CustomerType" Width="1.5" PointX="6" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.DailyRecord" Width="1.5" PointX="12.75" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.Damage" Width="1.5" PointX="7.75" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.DeleteLog" Width="1.5" PointX="15.75" PointY="25.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.ExchangeRateForTransaction" Width="1.5" PointX="10.5" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.GiftCard" Width="1.5" PointX="6" PointY="39.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.GiftCardInCustomer" Width="1.5" PointX="0.75" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.GiftSystem" Width="1.5" PointX="14.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.Loc_CustomerPoint" Width="1.5" PointX="14.75" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.Loc_PointRedeemHistory" Width="1.5" PointX="14.75" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.MainPurchase" Width="1.5" PointX="5.25" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.MemberCardRule" Width="1.5" PointX="15" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.MemberType" Width="1.5" PointX="12.75" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.PaymentType" Width="1.5" PointX="6" PointY="49.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.Product" Width="1.5" PointX="5.25" PointY="26.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.ProductCategory" Width="1.5" PointX="0.75" PointY="24.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.ProductInfo" Width="1.5" PointX="16.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.ProductPriceChange" Width="1.5" PointX="7.5" PointY="30.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.ProductQuantityChange" Width="1.5" PointX="10.5" PointY="30.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.ProductSubCategory" Width="1.5" PointX="3" PointY="36.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.PurchaseDeleteLog" Width="1.5" PointX="12.75" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.PurchaseDetail" Width="1.5" PointX="7.5" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.PurchaseDetailInTransaction" Width="1.5" PointX="12.75" PointY="29.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.RoleManagement" Width="1.5" PointX="10.5" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.Room" Width="1.5" PointX="6" PointY="51.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.Setting" Width="1.5" PointX="16.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.SPDetail" Width="1.5" PointX="7.5" PointY="34.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.StockTransaction" Width="1.5" PointX="7.5" PointY="44.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.Supplier" Width="1.5" PointX="3" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.Tax" Width="1.5" PointX="3" PointY="32.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.Transaction" Width="1.5" PointX="8.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.TransactionDetail" Width="1.5" PointX="10.5" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.Unit" Width="1.5" PointX="3" PointY="40.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.UnitConversion" Width="1.5" PointX="16.75" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.UsePrePaidDebt" Width="1.5" PointX="12.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.User" Width="1.5" PointX="10.5" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.UserRole" Width="1.5" PointX="8.25" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSModel.WrapperItem" Width="1.5" PointX="7.5" PointY="54.875" IsExpanded="true" />
+        <AssociationConnector Association="POSModel.FK_Product_Brand" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_Customer_City" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_Product_ConsignmentCounter" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_ConsignmentSettlement_ConsignmentSettlement" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_DailyRecord_Counter" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_DeleteLog_Counter" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_PurchaseDeleteLog_Counter" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_Transaction_Counter" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_UsePrePaidDebt_Counter" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_ExchangeRateForTransaction_Currency" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_Transaction_Currency" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_Transaction_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_Transaction_CustomerType" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_DeleteLog_Transaction" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_DeleteLog_TransactionDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_DeleteLog_User" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_ExchangeRateForTransaction_Transaction" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_Transaction_GiftCard" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_MainPurchase_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_PurchaseDeleteLog_MainPurchase" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_PurchaseDetail_MainPurchase" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_MemberCardRule_MemberType" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_Transaction_PaymentType" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_Product_ProductCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_Product_ProductType" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_Product_Tax" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_Product_Unit" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_ProductPriceChange_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_ProductQuantityChange_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_PurchaseDetail_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_PurchaseDetailInTransaction_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_SPDetail_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_SPDetail_Product1" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_StockTransaction_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_TransactionDetail_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_WrapperItem_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_WrapperItem_Product1" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_ProductSubCategory_ProductCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_ProductPriceChange_User" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_ProductQuantityChange_User" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_PurchaseDeleteLog_PurchaseDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_PurchaseDeleteLog_User" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_PurchaseDetailInTransaction_PurchaseDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_PurchaseDetailInTransaction_TransactionDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_RoleManagement_UserRole" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_Transaction_Room" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_SPDetail_TransactionDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_Transaction_Transaction" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_Transaction_User" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_TransactionDetail_Transaction" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_UsePrePaidDebt_Transaction" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_UsePrePaidDebt_Transaction1" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_UsePrePaidDebt_User" ManuallyRouted="false" />
+        <AssociationConnector Association="POSModel.FK_User_UserRole" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
